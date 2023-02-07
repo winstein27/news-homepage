@@ -12,7 +12,7 @@ body {
 }
 
 .main-header {
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .main-logo {
@@ -37,5 +37,55 @@ body {
 
 .main-nav > li:hover,
 .main-nav > li:active {
-  color: hsl(35, 77%, 62%);
+  color: hsl(5, 85%, 63%);
+}
+
+.main-new {
+  display: inline-block;
+  width: 60%;
+}
+
+.main-new > img {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.main-new__title {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 800;
+  padding-right: 10px;
+  color: hsl(240, 100%, 5%);
+  width: 40%;
+}
+
+.main-new__content {
+  display: inline-block;
+  vertical-align: middle;
+  height: 200px;
+  width: 58%;
+  padding-left: 10px;
+}
+
+.main-new__content p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.main-new__content a {
+  display: inline-block;
+  background: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  margin-top: 60px;
+}
+
+.main-new__content a:hover,
+.main-new__content a:active {
+  background: hsl(240, 100%, 5%);
 }
