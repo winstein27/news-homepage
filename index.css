@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: hsl(36, 100%, 99%);
   color: hsl(236, 13%, 42%);
   margin: 0 auto;
@@ -88,4 +88,16 @@ body {
 .main-new__content a:hover,
 .main-new__content a:active {
   background: hsl(240, 100%, 5%);
+}
+
+.news-list {
+  display: inline-block;
+  width: 39%;
+  background: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  padding: 20px;
+}
+
+.news-list__title {
+  color: ;
 }
