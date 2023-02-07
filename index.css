@@ -4,5 +4,38 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  border: 0;
+  background: hsl(36, 100%, 99%);
+  color: hsl(236, 13%, 42%);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.main-header {
+  margin: 20px;
+}
+
+.main-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-nav {
+  display: inline-block;
+  vertical-align: middle;
+  list-style-type: none;
+  padding: 0;
+  width: calc(100% - 70px);
+  text-align: right;
+}
+
+.main-nav > li {
+  display: inline-block;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.main-nav > li:hover,
+.main-nav > li:active {
+  color: hsl(35, 77%, 62%);
 }
