@@ -3,12 +3,12 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   background: hsl(36, 100%, 99%);
   color: hsl(236, 13%, 42%);
   margin: 0 auto;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
 }
 
 .main-header {
@@ -43,6 +43,7 @@ body {
 .main-new {
   display: inline-block;
   width: 60%;
+  vertical-align: text-top;
 }
 
 .main-new > img {
@@ -92,12 +93,30 @@ body {
 
 .news-list {
   display: inline-block;
-  width: 39%;
+  width: calc(39% - 40px);
+  margin-left: 40px;
+  vertical-align: text-top;
   background: hsl(240, 100%, 5%);
   color: hsl(36, 100%, 99%);
   padding: 20px;
 }
 
 .news-list__title {
-  color: ;
+  color: hsl(35, 77%, 62%);
+  font-size: 33px;
+  margin-bottom: 0;
+}
+
+.news-list__new {
+  padding: 15px 0;
+  border-bottom: 1px solid hsl(36, 100%, 99%);
+}
+
+.news-list__new:last-of-type {
+  border: none;
+}
+
+.news-list__new h3:hover,
+.news-list__new h3:active {
+  color: hsl(35, 77%, 62%);
 }
