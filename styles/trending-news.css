@@ -11,7 +11,7 @@
 
 .trending-news__new img {
   display: inline-block;
-  width: 49%;
+  max-width: 49%;
   vertical-align: text-top;
 }
 
@@ -19,4 +19,25 @@
   display: inline-block;
   width: 49%;
   vertical-align: text-top;
+  padding: 10px;
+}
+
+.trending-news__new__content > h2 {
+  color: hsl(233, 8%, 79%);
+  font-size: 40px;
+  margin: 0;
+}
+
+.trending-news__new__content > h3 > a {
+  color: hsl(240, 100%, 5%);
+  text-decoration: none;
+}
+
+.trending-news__new__content > h3 > a:hover,
+.trending-news__new__content > h3 > a:active {
+  color: hsl(5, 85%, 63%);
+}
+
+.trending-news__new__content > p {
+  font-size: 15px;
 }
