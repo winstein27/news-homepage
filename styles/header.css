@@ -1,0 +1,28 @@
+.main-header {
+  margin: 20px 0;
+}
+
+.main-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-nav {
+  display: inline-block;
+  vertical-align: middle;
+  list-style-type: none;
+  padding: 0;
+  width: calc(100% - 70px);
+  text-align: right;
+}
+
+.main-nav > li {
+  display: inline-block;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.main-nav > li:hover,
+.main-nav > li:active {
+  color: hsl(5, 85%, 63%);
+}

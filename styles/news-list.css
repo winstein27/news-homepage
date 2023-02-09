@@ -1,0 +1,29 @@
+.news-list {
+  display: inline-block;
+  width: calc(39% - 40px);
+  margin-left: 40px;
+  vertical-align: text-top;
+  background: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  padding: 20px;
+}
+
+.news-list__title {
+  color: hsl(35, 77%, 62%);
+  font-size: 33px;
+  margin-bottom: 0;
+}
+
+.news-list__new {
+  padding: 15px 0;
+  border-bottom: 1px solid hsl(36, 100%, 99%);
+}
+
+.news-list__new:last-of-type {
+  border: none;
+}
+
+.news-list__new h3:hover,
+.news-list__new h3:active {
+  color: hsl(35, 77%, 62%);
+}
