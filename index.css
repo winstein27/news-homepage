@@ -120,3 +120,26 @@ body {
 .news-list__new h3:active {
   color: hsl(35, 77%, 62%);
 }
+
+.trending-news {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.trending-news__new {
+  display: inline-block;
+  width: 33%;
+  vertical-align: middle;
+}
+
+.trending-news__new img {
+  display: inline-block;
+  width: 49%;
+  vertical-align: text-top;
+}
+
+.trending-news__new__content {
+  display: inline-block;
+  width: 49%;
+  vertical-align: text-top;
+}
