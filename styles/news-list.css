@@ -4,7 +4,6 @@
   margin-left: 40px;
   vertical-align: text-top;
   background: hsl(240, 100%, 5%);
-  color: hsl(36, 100%, 99%);
   padding: 20px;
 }
 
@@ -23,7 +22,13 @@
   border: none;
 }
 
-.news-list__new h3:hover,
-.news-list__new h3:active {
+.news-list__new > h3 > a,
+.news-list__new > p {
+  text-decoration: none;
+  color: hsl(36, 100%, 99%);
+}
+
+.news-list__new > h3 > a:hover,
+.news-list__new > h3 > a:active {
   color: hsl(35, 77%, 62%);
 }
