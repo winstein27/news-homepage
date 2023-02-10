@@ -1,16 +1,14 @@
 .news-list {
-  display: inline-block;
-  width: calc(39% - 40px);
-  margin-left: 40px;
-  vertical-align: text-top;
+  display: block;
   background: hsl(240, 100%, 5%);
+  margin-top: 30px;
   padding: 20px;
 }
 
 .news-list__title {
   color: hsl(35, 77%, 62%);
   font-size: 33px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .news-list__new {
@@ -31,4 +29,14 @@
 .news-list__new > h3 > a:hover,
 .news-list__new > h3 > a:active {
   color: hsl(35, 77%, 62%);
+}
+
+@media (min-width: 700px) {
+  .news-list {
+    display: inline-block;
+    width: calc(39% - 40px);
+    margin-top: 0;
+    margin-left: 40px;
+    vertical-align: text-top;
+  }
 }
