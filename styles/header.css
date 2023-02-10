@@ -23,6 +23,7 @@
 
 .main-nav > li > a {
   text-decoration: none;
+  color: hsl(236, 13%, 42%);
 }
 
 .main-nav > li > a:hover,
