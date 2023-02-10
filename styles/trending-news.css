@@ -1,12 +1,5 @@
 .trending-news {
-  margin-top: 30px;
-  width: 100%;
-}
-
-.trending-news__new {
-  display: inline-block;
-  width: 33%;
-  vertical-align: middle;
+  margin-top: 50px;
 }
 
 .trending-news__new img {
@@ -20,6 +13,7 @@
   width: 49%;
   vertical-align: text-top;
   padding: 10px;
+  padding-top: 0;
 }
 
 .trending-news__new__content > h2 {
@@ -40,4 +34,12 @@
 
 .trending-news__new__content > p {
   font-size: 15px;
+}
+
+@media (min-width: 700px) {
+  .trending-news__new {
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+  }
 }
