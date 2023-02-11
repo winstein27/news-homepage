@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header class="main-header">
       <div class="main-logo">
@@ -30,7 +31,25 @@
         <li><a href="#">Categories</a></li>
       </ul>
       <div class="header-menu">
-        <img src="./icons/icon-menu.svg" alt="Menu" />
+        <img id="menu-icon" src="./icons/icon-menu.svg" alt="Menu" />
+      </div>
+
+      <div class="backdrop"></div>
+      <div class="mobile-menu">
+        <img
+          id="close-icon"
+          src="./icons/icon-menu-close.svg"
+          alt="Close."
+          width="32"
+          height="31"
+        />
+        <ul class="menu-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
       </div>
     </header>
 
@@ -113,5 +132,7 @@
         </div>
       </section>
     </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
